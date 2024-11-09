@@ -12,7 +12,6 @@
             string nickname = NicknameEntry.Text;
             if (!string.IsNullOrEmpty(nickname))
             {
-                // Navigate to WelcomePage with the entered nickname
                 await Navigation.PushAsync(new WelcomePage(nickname));
             }
             else

@@ -27,7 +27,6 @@ namespace OSSimulation
             if (!string.IsNullOrEmpty(motivation))
             {
                 await DisplayAlert("Selected Motivation", $"You selected: {motivation}", "OK");
-                // Navigate to Coding Knowledge Page
                 await Navigation.PushAsync(new CodingKnowledgePage());
             }
             else

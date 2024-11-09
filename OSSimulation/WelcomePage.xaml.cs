@@ -10,7 +10,6 @@ namespace OSSimulation
 
         private async void OnAlrightClicked(object sender, EventArgs e)
         {
-            // Assuming you want to navigate to the MotivationPage when the button is clicked
             await Navigation.PushAsync(new MotivationPage());
         }
     }
